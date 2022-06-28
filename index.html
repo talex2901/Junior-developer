@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content= "Hello, this is my first page from junior frontend developer, vladilen course">
+    <meta name="description" content="Привет, это моя первая страница в интернете. 
+    Здесь я буду практикаваться и изучать основы создания сайтов">
+    <link rel="stylesheet" href="01_SCC.css">
+    <script src="script.js"></script>
+ <title>Карточка студента</title>
+</head>
+<body>
+    <div class="container">
+    <header id="header" style="color: rgb(71, 80, 80);">
+ <h1>Карточка студента</h1> 
+</header>
+<div class="hair">
+<p class="image">
+ <img src="images/photo_1.jpg" class="myPhoto" width="550" alt="Тут могла быть ваша реклама XD"> 
+</p>
+  <div class="block">
+  <p>Имя, Фамилия:<br><strong><em>Таранюк Алексей</em></strong></p> 
+  <p>Возраст:<br><strong><em>26 лет</em></strong></p> 
+  <p>Опыт програмирования:<br><strong><em>Null :)</em></strong></p> 
+  <p>О себе:<br><strong><em>В детстве ковырялся в HTML и CSS, но далеко не ушел. Настало время это исправить</em></strong></p> 
+</div>
+</div>
+<div class="hobby">
+    <h1>
+        Мои Цели на обучение:
+    </h1>
+    <Ol>
+        <li>Стать квалифицированным специалистом</li>
+        <li>Найти удаленную работу в IT</li>
+        <li>Уехать с семьей на Филлипины</li>
+    </Ol>
+</div>
+<br>
+<div class="week">
+    <h1>Сколько времени могу обучаться:</h1>
+<table class="WeekTable">
+    <tbody>
+        <tr class="week-1">
+            <td>Понедельник</td>
+            <td>1-2 часа</td>
+        </tr>
+        <tr class="week-2">
+            <td>Вторник</td>
+            <td>1-2 часа</td>
+        <tr class="week-3">
+            <td>Вторник</td>
+            <td>1-2 часа</td>
+        <tr class="week-4">
+            <td>Вторник</td>
+            <td>1-2 часа</td>
+        <tr class="week-5">
+            <td>Вторник</td>
+            <td>1-2 часа</td>
+        <tr class="week-6">
+            <td>Вторник</td>
+            <td>1-2 часа</td>
+        <tr class="week-7">
+            <td>Вторник</td>
+            <td>1-2 часа</td>
+        </tr>
+    </tbody>
+    Плавающий график 3/3, трудно гарантировать больше часов в определенный день недели.
+</table>
+</div>
+<div class="work">
+    <h1>Пройденые курсы</h1>
+<table class="workTable">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>автор</th>
+            <th>Оценка курса</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="resume-1">
+            <td>HTML & SCC</td>
+            <td>Владилен Минин</td>
+            <td>10/10</td>
+        </tr>
+        <tr class="resume-2">
+            <td>JavaScript для начинающих</td>
+            <td>Anton Kholin/Stepik</td>
+            <td>7/10</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div class="fedback">
+<P>
+    <h1>Связаться со мной</h1>
+</P>
+
+<form class="form">
+    <div class="formRow">
+    <div class="formGroup">
+        <label for="Name" >Ваше имя</label>
+        <input type="text" id="Name" placeholder="Иван">
+    </div>
+    <div class="formGroup">
+        <label for="Email" >Ваш Эмейл*</label>
+        <input type="email" id="Email" placeholder="вашапочта@почта.ru">
+    </div>
+</div>
+<div class="formTel">
+    <div class="formGroup">
+        <label for="tel">Ваш телефон*</label>
+        <input type="tel" id="tel" name="tel"
+       pattern="[+7]{2}[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" value="+7" placeholder="+79*********"
+       required>
+    </div>
+    <div class="formGroup">
+        <label for="sex">Ваш пол*</label>
+        <select>
+            <option value="Mele">Мужчина</option>
+            <option value="feMele">Женщина</option>
+            <option value="AttackHelicopter">Боевой Ветолет</option>
+        </select>
+    </div>
+</div>
+    <div class="formGroup">
+        <label for="message" >Сообщение</label>
+        <textarea id="message" cols="50" rows="10" placeholder="Опишите в чем дело..."></textarea>
+    </div>
+    <Button class="btn" type="Submit">✉ Отправить</Button>
+ <div class="adress">
+        <p>Cоц сети:</p>
+        <br> 
+        <a href="https://vk.com/lexataranuk" class="site">VK</a>  /
+        <a href="https://t.me/talex29" class="site">Telegram</a> 
+        <p>
+        </div>
+
+</form>
+</div>
+</div>
+<br>
+</body>
+</html>
